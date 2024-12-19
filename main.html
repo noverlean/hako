@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-Hako | Main</title>
+
+    <link rel="stylesheet" href="css/general.css">
+
+    <link rel="stylesheet" href="css/pages/main.css">
+
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/tooltip.css">
+
+    <link rel="stylesheet" href="css/animations/cursor.css">
+    <link rel="stylesheet" href="css/animations/cursorTooltip.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"></head>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div id="logo" class="logo">-Hako</div>
+    </header>
+    <main>
+        <div id="cursor" class="cursor"></div>
+        <div id="cursorShadow" class="cursorShadow"></div>
+        <div class="tooltipContainer mainTooltipMod">
+            <div id="cursorTooltip" class="tooltip">[HOVER ME]</div>
+        </div>
+        <div class="navigator">
+            <div id="design_dir_btn" class="point hide" style="top: 23%; left: 30%;">DESIGN</div>
+            <div id="dev_dir_btn" class="point hide" style="top: 23%; left: 60%;">DEVELOPMENT</div>
+            <div id="naming_dir_btn" class="point hide" style="top: 50%; left: 23%;">NAMING</div>
+            <div id="youtube_dir_btn" class="point hide" style="top: 50%; left: 68%;">YouTube</div>
+            <div id="tiktok_dir_btn" class="point hide" style="top: 73%; left: 47%;">TikTok</div>
+        </div>
+    </main>
+    <script src="front/cursorHoverHandler.js"></script>
+    <script src="front/router.js"></script>
+    <script src="front/scroller.js"></script>
+</body>
+</html>

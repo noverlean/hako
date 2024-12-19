@@ -1,0 +1,38 @@
+.scroller
+{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    width: 25px;
+    top: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollerOption
+{
+    width: 5px;
+    height: 5px;
+
+    background-color: var(--main-contrast-2);
+    border: 0px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+
+    transition: all .2s linear;
+}
+
+.scrollerOption:hover
+{
+    background-color: var(--aspect);
+    box-shadow: 0px 0px 25px var(--aspect);
+}
+
+.scrollerOptionEnabled
+{
+    background-color: var(--main-contrast);
+    box-shadow: 0px 0px 25px var(--main-contrast);
+}

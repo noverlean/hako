@@ -1,0 +1,26 @@
+main
+{
+    background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px;
+    background-image: 
+    radial-gradient(75% 75% at -7% 30%, #8d8d8d 0%, #0000 40%),
+    radial-gradient(75% 75% at 125% -35%, #a581e7 35%, #0f0f0f 100%),
+    linear-gradient(0deg, #0f0f0f 0%, #0f0f0f 100%);
+}
+
+.info
+{
+}
+
+.products
+{
+}
+
+.portfolio
+{
+}
+
+.learnMore
+{
+    margin-top: 100px;
+}

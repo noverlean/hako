@@ -1,0 +1,17 @@
+@keyframes cursorTooltipBasic {
+    0% 
+    {
+        font-size: 20px;
+        color: var(--main-contrast-2);
+    }
+    50%
+    {
+        font-size: 25px;
+        color: var(--main-contrast-1);
+    }
+    100%
+    {
+        font-size: 20px;
+        color: var(--main-contrast-2);
+    }
+}

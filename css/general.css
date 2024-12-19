@@ -1,0 +1,110 @@
+*, *::after, *::before
+{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main: #0f0f0f;
+    --main-1: #161616;
+    --main-contrast: #f8f8f8;
+    --main-contrast-1: #dddddd;
+    --main-contrast-2: #8d8d8d;
+    --aspect: #a581e7;
+    --aspect-1: #865ed1;
+}
+
+body
+{
+    background-color: var(--main);
+    width: 100%;
+    height: 100vh;
+    color: var(--main-contrast-1);
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    scrollbar-color: var(--main-1) var(--main); /* «цвет ползунка» «цвет полосы скроллбара» */
+    scrollbar-width: thin;
+}
+
+main
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+
+    scroll-snap-type: y mandatory;
+}
+
+.hide{
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all .2s linear !important;
+}
+
+/* изменить ширину скролла для возвращения отображения */
+::-webkit-scrollbar {
+    width: 0px; /* ширина для вертикального скролла */
+    height: 25px; /* высота для горизонтального скролла */
+    background-color: var(--main);
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    transition: all .2s linear;
+    /* border-radius: 9em; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--aspect);
+}
+
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0px solid;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.box .title
+{
+    font-size: 75px;
+    text-align: center;
+    padding-bottom: 25px;
+
+    text-shadow: 10px 10px 25px var(--main-contrast-1);
+}
+
+.box .description
+{
+    font-size: 20px;
+    text-align: start;
+    padding: 25px 0px 30px 0px;
+    max-width: 900px;
+
+    text-shadow: 10px 10px 15px var(--main-contrast-1);
+}
+
+.button
+{
+    display: block;
+    /* background-color: linear-gradient(var(--main-contrast), var(--aspect)); */
+    background: -moz-linear-gradient(var(--main-contrast-1), var(--main));
+    background: -webkit-linear-gradient(var(--main-contrast-1),var(--main));
+    background: linear-gradient(var(--main-contrast-1),var(--main));
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--main-1);
+}

@@ -1,0 +1,28 @@
+.tooltipContainer
+{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: calc(50% - 100px);
+    bottom: 10%;
+    width: 200px;
+}
+.tooltip
+{
+    font-size: 25px;
+    opacity:1;
+    visibility: visible;
+    transition: all .2s linear;
+    animation: cursorTooltipBasic 3s ease-in-out infinite;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.mainTooltipMod
+{
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
