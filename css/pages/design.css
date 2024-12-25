@@ -3,7 +3,10 @@ main
     background-size: 100% 100%;
 background-position: 0px 0px,0px 0px,0px 0px;
     background-image: 
-    radial-gradient(75% 75% at -7% 30%, #8d8d8d 0%, #0000 40%),
+    radial-gradient(40% 40% at 23% 102%, #8d8d8d 0%, #00000000 100%),
+    /* radial-gradient(30% 15% at 75% 70%, #845bd1 0%, #00000000 100%), */
+    radial-gradient(30% 30% at 100% 65%, #543391 0%, #00000000 100%),
+    radial-gradient(95% 75% at -7% 30%, #8d8d8d 0%, #0000 40%),
     radial-gradient(75% 75% at 125% -35%, #a581e7 35%, #0f0f0f 100%),
     linear-gradient(0deg, #0f0f0f 0%, #0f0f0f 100%);
 }
@@ -28,8 +31,10 @@ background-position: 0px 0px,0px 0px,0px 0px;
 .icon{
     position: fixed;
     background-size: cover;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    
+    display: none;
 }
 .photoshopIcon
 {

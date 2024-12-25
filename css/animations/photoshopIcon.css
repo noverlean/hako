@@ -3,9 +3,13 @@
     {
         transform: skew(347deg, 351deg);
     }
-    50%
+    30%
     {
         transform: skew(342deg, 345deg);
+    }
+    60%
+    {
+        transform: skew(342deg, 355deg);
     }
     100%
     {
