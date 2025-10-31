@@ -31,6 +31,15 @@
 
 ---
 
+### 🖼️ Дизайн
+![Landing Screen](./screenshots/design.png)
+### 🖼️ Основная
+![Landing Screen](./screenshots/main.png)
+### 🖼️ Основная (активная)
+![Landing Screen](./screenshots/main_active.png)
+
+---
+
 ## 🚀 Запуск проекта
 
 1. Клонируйте репозиторий:
