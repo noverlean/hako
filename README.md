@@ -31,6 +31,15 @@ The goal was to create a space that reflects the author's personality through de
 
 ---
 
+### 🖼️ Design
+![Landing Screen](./screenshots/design.png)
+### 🖼️ Main
+![Landing Screen](./screenshots/main.png)
+### 🖼️ Main (active)
+![Landing Screen](./screenshots/main_active.png)
+
+---
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
